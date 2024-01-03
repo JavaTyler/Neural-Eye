@@ -29,9 +29,9 @@ public abstract class Layer {
 
     public abstract double[] getOutput(double[] input);
 
-    public abstract void backPropogation(double[] dldD);
+    public abstract void backPropagation(double[] dldO);
 
-    public abstract void backPropogation(List<double[][]> dldD);
+    public abstract void backPropagation(List<double[][]> dldO);
 
     public abstract int getOutputLength(); // List length of matrices
     public abstract int getOutputRows(); // List of rows (how many rows)
